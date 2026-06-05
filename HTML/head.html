@@ -20,7 +20,15 @@
         }
     </style>
 
-</head>
+        <!-- External CSS can be linked to your HTML document using the link element within the head tag. This allows you to separate your CSS styles from your HTML structure, making it easier to maintain and update your styles across multiple pages. To link an external CSS file, use the following syntax: <link rel="stylesheet" href="styles.css">. This will apply the styles defined in the styles.css file to your HTML document. Using external CSS is a best practice for larger projects, as it promotes better organization and reusability of styles across different pages of your website. -->
+<link rel="stylesheet" href="styles.css">
+
+        <!-- JavaScript can also be included in the head tag using the script element. This allows you to add interactivity and dynamic functionality to your webpage. You can either include JavaScript code directly within the script element or link to an external JavaScript file using the src attribute. For example, you can use <script src="script.js"></script> to link an external JavaScript file. Including JavaScript in the head tag ensures that it is loaded before the body content, allowing you to manipulate the DOM and handle events effectively. However, for better performance, it's often recommended to place your JavaScript code at the end of the body tag or use the defer attribute to ensure that it doesn't block the rendering of the page. -->
+        <script>
+            alert("Hello, this is a JavaScript alert!");
+            document.write("This is a message written by JavaScript.");
+        </script>
+    </head>
 <body>
     <h1>Head Tag Lesson</h1>
     <p>This is a simple paragraph to demonstrate the use of the head tag in HTML.</p>    
